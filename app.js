@@ -28,7 +28,7 @@ var client = new Twitter({
 });
 
 // connect to database
-app.db = mongoose.connect(process.env.MONGOLAB_URI);
+app.db = mongoose.connect(process.env.MONGODB_URI);
 
 // view engine setup - this app uses Hogan-Express
 // https://github.com/vol4ok/hogan-express
